@@ -121,3 +121,27 @@ body {
     row-gap: 1rem;
   }
 }
+
+@media (max-width: 48rem) {
+  .entry {
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+
+  .entry-date {
+    white-space: normal;
+  }
+
+  .about-block {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .about-copy {
+    max-width: 100%;
+  }
+
+  .section-entries {
+    max-width: 100%;
+  }
+}
