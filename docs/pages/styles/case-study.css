@@ -1,0 +1,250 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding-top: 5rem;
+  background: #21170d;
+}
+
+.back-button a {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  margin-top: 2rem;
+}
+
+.back-link {
+  font-family: "Overused Grotesk Regular", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #fdae92;
+  letter-spacing: -0.0125rem;
+  text-decoration: none;
+}
+.case-study-hero {
+  padding: auto;
+}
+
+.screen-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding: 0 2rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.case-study-title {
+  font-family: "Instrument Serif Regular", serif;
+  font-size: 3rem;
+  font-weight: 400;
+  color: #fff;
+  letter-spacing: -0.0625rem;
+}
+
+.case-study-subtitle {
+  font-family: "Overused Grotesk Regular", serif;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  color: #fdae92;
+  line-height: normal;
+  letter-spacing: -0.02rem;
+}
+
+.info-section {
+  padding: 1.5rem 0;
+  display: flex;
+}
+
+.details-column {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  column-gap: 4rem;
+  width: auto;
+  justify-content: flex-start;
+  margin-top: 2rem;
+}
+
+.details-block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.6875rem;
+  min-width: 0;
+}
+
+.detail-title {
+  font-family: "Overused Grotesk";
+  font-size: 2rem;
+  font-style: normal;
+  color: #ffffff;
+  font-weight: 350;
+  line-height: 2.375rem;
+  letter-spacing: -0.02rem;
+}
+
+.detail-body {
+  font-family: "Overused Grotesk";
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  color: #d6d6d6;
+  line-height: 2rem;
+  letter-spacing: -0.0015rem;
+}
+
+.case-study-details {
+  width: 60%;
+  margin: 2rem auto 0;
+}
+
+.case-study-content-block {
+  width: 60%;
+  margin: 0 auto 6rem;
+}
+.section-title {
+  font-family: "Overused Grotesk Regular", sans-serif;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  color: #fdae92;
+  line-height: normal;
+  letter-spacing: -0.0125rem;
+}
+.case-study-subheading {
+  font-family: "Overused Grotesk Regular", sans-serif;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 2.375rem;
+  letter-spacing: -0.0125rem;
+  margin-bottom: 2rem;
+}
+
+.case-study-subheading em {
+  color: #fdae92;
+  font-style: normal;
+}
+
+.findings-card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.75rem;
+  width: 100%;
+  margin: 2rem 0;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+  padding: 1.5rem;
+  padding-bottom: 3rem;
+  border-radius: 2rem;
+  background: #060504;
+  border: 0.0625rem solid rgba(255, 255, 255, 0.15);
+}
+
+.card-title {
+  font-family: "Overused Grotesk";
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  color: #fdae92;
+  line-height: 2.375rem;
+  letter-spacing: -0.0125rem;
+  margin-top: 1.5rem;
+}
+
+.card-body {
+  font-family: "Overused Grotesk";
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 350;
+  color: #ffffff;
+  line-height: 1.875rem;
+  letter-spacing: -0.0125rem;
+}
+
+.walkthrough-block {
+  display: flex;
+  max-width: 90%;
+  margin: 0 auto;
+  margin-top: 4rem;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 4rem;
+}
+
+.walkthrough-img {
+  background: rgba(129, 83, 65, 0.4);
+  width: 50%;
+  height: 40rem;
+  aspect-ratio: 6 / 9;
+  border-radius: 0.3125rem;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.walkthrough-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.5rem;
+  flex: 1 0 0;
+}
+
+.walkthrough-title {
+  font-family: "Overused Grotesk";
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  color: #fdae92;
+  line-height: normal;
+  letter-spacing: -0.02rem;
+}
+
+.walkthrough-body {
+  font-family: "Overused Grotesk";
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 2.375rem;
+  letter-spacing: -0.02rem;
+}
+@media (max-width: 48rem) {
+  .details-column {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+  }
+
+  .detail-body {
+    margin-bottom: 2rem;
+  }
+
+  .findings-card-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+  }
+  .walkthrough-block {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .walkthrough-img {
+    background: rgba(129, 83, 65, 0.4);
+    width: 100%;
+    height: 20rem;
+  }
+}
